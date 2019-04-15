@@ -1,11 +1,14 @@
 # AdultIncomePrediction
 Adult income prediction analyses and modeling based on supervised learning algorithm (Python code)
+
 Project In Briefs
+
 The data set was extracted by Barry Becker from the 1994 Census database data and donored by both Ronny Kohavi and Barry Becker. The main goal of this project is to predict whether individuals earn more than 50k in a year. I have employed and developed Python codes to analyse the dataset. The data was basically clean with no missing values, however there were some features with unknown values e.g. workclass, occupation and native-country. Since the features are catagorical variables I have dropped the rows which have unknown values.
 
 All independent catagorical variables are converted to numerical values using OneHotEncoder. And LabelEncoder is used for the target variable. I have used Google collab as editor and imported Python libraries such as pandas, scikit-learn, matplotlib, seaborn, numpy for the emprical analyses and visualization.
 
 Dataset Features
+
 age: continuous.
 
 workclass: Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov, Without-pay, Never-worked. fnlwgt: continuous.
